@@ -27,9 +27,11 @@ Let’s write our first scraper using PyQuery. We will use the requests module t
 ```python
 import requests
 from pyquery import PyQuery as pq
+```
  
 Now, let's fetch the website: https://example.com and grab the title using pyquery.
 
+```python
 r = requests.get("https://example.com")
 doc = pq(r.content)
 print(doc("title").text())
