@@ -27,11 +27,9 @@ Let’s write our first scraper using PyQuery. We will use the requests module t
 ```python
 import requests
 from pyquery import PyQuery as pq
-```
  
 Now, let's fetch the website: https://example.com and grab the title using pyquery.
 
-```python
 r = requests.get("https://example.com")
 doc = pq(r.content)
 print(doc("title").text())
@@ -60,8 +58,8 @@ Sometimes we might need to remove unwanted elements from the DOM. PyQuery has a 
 ```python
 from pyquery import PyQuery as pq
 doc = pq(url="https://books.toscrape.com")
-for icon in doc("i"):
-   icon.remove()
+doc("i").remove()
+print(doc)
 ```
 
 Once, we run this code it will remove all the icons from the doc.
