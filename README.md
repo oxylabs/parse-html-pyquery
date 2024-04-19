@@ -2,6 +2,7 @@
 
 [![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
 In this article, we will learn how to write a web scraper in Python using the PyQuery Library. We will first explore the basics and after that, we will also do a comparison of PyQuery with Beautifulsoup. So, let’s get started.
 
